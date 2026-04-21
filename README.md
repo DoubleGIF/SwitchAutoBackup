@@ -30,7 +30,8 @@
 - TELNET 端口：TELNET 远程使用的端口号
 - Super 级别：仅华为交换机需要（0-15），不清楚可留空
 
-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/ef284e7b-d973-46fa-b8c9-e7c1db3e89f3" />
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/22136579-209b-43e6-9bd9-f2fe6d1413c6" />
+
 
 ---
 
