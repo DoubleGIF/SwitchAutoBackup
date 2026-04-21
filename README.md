@@ -7,7 +7,7 @@
 之前一直使用 CRT 记录会话的方式将配置文件拉到本地电脑，但无法实现全自动化。<br>
 园区网管系统也不支持该功能，因此开发了此程序。<br>
 目前已知支持的设备：华为交换机/思科交换机。<br>
-但是理论上只要是使用 display current-configuration 和 show running-config 的都支持。<br>
+但是理论上只要是使用 `display current-configuration` 和 `show running-config` 的都支持。<br>
 
 ---
 
