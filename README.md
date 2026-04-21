@@ -21,7 +21,7 @@
   ```-TELNET端口：TELNET远程所使用的端口号```<br>
   ```-Super级别：只有 HUAWEI 系交换机需要 值 0 - 15 ，根据设备配置对应填写即可，不知道留空即可```<br>
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/ef284e7b-d973-46fa-b8c9-e7c1db3e89f5" /><br>
->
+<
 <br>
 2.添加完成设备后选中该设备点击左上角的备份配置即可启动备份流程<br>
     ```  -如需要一次性全部备份，可以点击其中一台设备然后按快捷键 Alt + A 全选设备，然后点击备份配置即可```<br>
