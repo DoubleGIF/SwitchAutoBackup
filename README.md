@@ -21,11 +21,11 @@
   ```-TELNET端口：TELNET远程所使用的端口号```<br>
   ```-Super级别：只有 HUAWEI 系交换机需要 值 0 - 15 ，根据设备配置对应填写即可，不知道留空即可```<br>
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/ef284e7b-d973-46fa-b8c9-e7c1db3e89f5" /><br>
-<
+
 <br>
 2.添加完成设备后选中该设备点击左上角的备份配置即可启动备份流程<br>
-    ```  -如需要一次性全部备份，可以点击其中一台设备然后按快捷键 Alt + A 全选设备，然后点击备份配置即可```<br>
-    ```  -备份完成后的保存的路径为：当前文件目录的 backup/日期/xxxxx.txt```<br>
+   ```  -如需要一次性全部备份，可以点击其中一台设备然后按快捷键 Alt + A 全选设备，然后点击备份配置即可```<br>
+   ```  -备份完成后的保存的路径为：当前文件目录的 backup/日期/xxxxx.txt```<br>
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/22be9988-bc3e-4271-99d2-1fb9f094d950" /><br>
 备份文件所在的文件夹<br>
 <img width="627" height="255" alt="image" src="https://github.com/user-attachments/assets/282580f9-fb66-4d2a-955c-5816449ca258" /><br>
@@ -36,11 +36,11 @@
 <img width="887" height="693" alt="image" src="https://github.com/user-attachments/assets/7b7ca994-656d-4e20-ab21-ab6cecbf4032" /><br>
 <br>
 4.程序基础信息设备<br>
-> ```-线程池大小：同时并发处理的设备数量，值越大，并发处理的设备就越多（没有做限制，保持默认即可）```<br>
-  ```-super级别：默认全局super级别，当华为系的设备填写了enable/Super密码，同时没有在添加设备处指定super级别，则会调用这里的super级别```<br>
-  ```-备份文件保存目录：指定备份的配置文件存储在哪个目录下```<br>
-  ```-定时备份策略：设置定时执行备份任务，自行探索即可```<br>
-  ```-最后配置完成后记得点击保存```<br>
+   ```-线程池大小：同时并发处理的设备数量，值越大，并发处理的设备就越多（没有做限制，保持默认即可）```<br>
+   ```-super级别：默认全局super级别，当华为系的设备填写了enable/Super密码，同时没有在添加设备处指定super级别，则会调用这里的super级别```<br>
+   ```-备份文件保存目录：指定备份的配置文件存储在哪个目录下```<br>
+   ```-定时备份策略：设置定时执行备份任务，自行探索即可```<br>
+   ```-最后配置完成后记得点击保存```<br>
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/5592ab1a-8b00-4eae-a113-7bd6c27e1e71" /><br>
 
 
