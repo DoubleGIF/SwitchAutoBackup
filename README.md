@@ -14,12 +14,12 @@
    ``` -设备类型：这里我将设备分成2类华为系和思科系列，不再做具体的细分，根据命令格式选择即可```<br>
       ```    · 使用display 的设备为华为系列 选择 HUAWEI```<br>
       ```    · 使用show 的设备为思科系列 选择 CISCO```<br>
-  -Enable/Super密码：设备的二级密码，这个根据上面选择的设备类型不同会有不同的逻辑，具体逻辑如下：<br>
-    · 如果选择的 HUAWEI ，则该密码为进入设备后输入的 Super 密码<br>
-    · 如果选择的 CISCO ，则该密码为特权模式的密码<br>
-  -SSH端口：SSH远程所使用的端口号<br>
-  -TELNET端口：TELNET远程所使用的端口号<br>
-  -Super级别：只有 HUAWEI 系交换机需要 值 0 - 15 ，根据设备配置对应填写即可，不知道留空即可<br>
+  ```-Enable/Super密码：设备的二级密码，这个根据上面选择的设备类型不同会有不同的逻辑，具体逻辑如下：```<br>
+      ```    · 如果选择的 HUAWEI ，则该密码为进入设备后输入的 Super 密码```<br>
+      ```    · 如果选择的 CISCO ，则该密码为特权模式的密码```<br>
+  ```-SSH端口：SSH远程所使用的端口号```<br>
+  ```-TELNET端口：TELNET远程所使用的端口号```<br>
+  ```-Super级别：只有 HUAWEI 系交换机需要 值 0 - 15 ，根据设备配置对应填写即可，不知道留空即可```<br>
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/ef284e7b-d973-46fa-b8c9-e7c1db3e89f5" /><br>
 <br>
 2.添加完成设备后选中该设备点击左上角的备份配置即可启动备份流程<br>
