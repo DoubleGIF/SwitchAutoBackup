@@ -902,7 +902,7 @@ public class DeviceManagerUI extends JFrame {
         // 保存按钮事件
         saveBtn.addActionListener(e -> {
             int threadCount = (Integer) threadSpinner.getValue();
-            int superLevel = Integer.valueOf((String) superLevelCombo.getSelectedItem());
+            superLevel = Integer.valueOf((String) superLevelCombo.getSelectedItem());
             String backupDir = backupDirField.getText().trim();
             String scheduleType = (String) scheduleTypeCombo.getSelectedItem();
 
